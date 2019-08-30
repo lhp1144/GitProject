@@ -1,0 +1,352 @@
+@charset "UTF-8";
+#head > .top > a {
+  text-decoration: none; }
+
+#head > .top > a:hover {
+  color: #fff; }
+
+.main {
+  color: #666;
+  position: relative; }
+
+.nav .ulRight {
+  margin-bottom: 0; }
+
+.subMenu {
+  width: 320px; }
+
+.productList {
+  width: 1564px; }
+
+.subMenu ul {
+  margin-left: 5px;
+  margin-bottom: 18px; }
+
+.subMenu ul li {
+  line-height: 30px; }
+
+.row .subMenu ul li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 1px; }
+
+.row .subMenu ul li a:hover {
+  color: #000000; }
+
+.row {
+  margin-top: 18px; }
+
+.title {
+  border-bottom: 1px solid #ccc;
+  position: relative; }
+
+.title h2 {
+  font-size: 20px;
+  margin-top: 10px; }
+
+.sortBtn {
+  display: block;
+  float: right;
+  width: 86px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  /* border: 1px solid #ccc;
+	border-bottom: none;
+	background: #FFF; */
+  margin-top: -40px;
+  cursor: pointer; }
+
+.sortbtn {
+  display: block;
+  float: right;
+  width: 86px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background: #FFF;
+  margin-top: -41px;
+  cursor: pointer; }
+
+.sortBtn i {
+  margin-left: 20px; }
+
+.sortbtn i {
+  margin-left: 20px; }
+
+.sortMenu {
+  position: absolute;
+  font-size: 12px;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding-left: 20px;
+  width: 250px;
+  top: 33px;
+  right: 0;
+  display: none;
+  z-index: 9;
+  background: #fff; }
+
+.sortMenu li {
+  width: 210px;
+  height: 48px;
+  line-height: 48px;
+  cursor: pointer;
+  border-top: 1px solid #ccc;
+  z-index: 8; }
+
+.sortMenu a {
+  color: #666;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 1px; }
+
+.sortMenu .radios {
+  width: 20px;
+  height: 20px;
+  margin-right: 14px;
+  position: relative;
+  left: 0;
+  top: 5px; }
+
+.row #productList {
+  padding-top: 0; }
+
+.screen {
+  padding-left: 16px;
+  margin-bottom: 20px;
+  position: relative; }
+
+#screen .btn-group .btn {
+  background: #fff;
+  border-radius: 0;
+  color: #666;
+  font-size: 12px;
+  border-color: #ccc;
+  height: 42px;
+  margin-right: 12px; }
+
+#screen .btn-group .btn span {
+  margin-left: 70px; }
+
+#screen .btn-group .btn:hover {
+  background: #000000;
+  color: #fff; }
+
+#screen .btn-group .dropdown-menu li a {
+  color: #666;
+  font-size: 12px;
+  line-height: 22px; }
+
+#screen .btn-group .selected {
+  background: #000;
+  color: #fff; }
+
+.list {
+  width: 24%;
+  height: 6%;
+  margin-bottom: 50px;
+  margin-right: 1%; }
+
+.playAuto {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  /* overflow: hidden; */ }
+
+.playAuto img {
+  width: 100%;
+  /* position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0; */ }
+
+.examine {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  opacity: 0.5;
+  font-size: 12px;
+  display: none; }
+
+.examine i {
+  font-size: 14px;
+  color: #666;
+  margin: 0 6px; }
+
+#products .list span p {
+  font-size: 14px;
+  margin-top: 10px; }
+
+#products .list span p a {
+  text-decoration: none;
+  color: #333; }
+
+#products {
+  display: flex;
+  flex-wrap: wrap; }
+
+#products .list {
+  position: relative; }
+
+.clear {
+  width: 70px;
+  height: 42px;
+  background: #fff;
+  border: #ccc 1px solid;
+  font-size: 12px;
+  outline: none;
+  position: absolute;
+  top: 60px;
+  left: 500px; }
+
+.clear:hover {
+  background: #ccc; }
+
+/* 底部字体 */
+.foot_list .ulList h3 {
+  font-size: 14px; }
+
+.modal-content {
+  width: 900px;
+  height: 565px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+
+.liColor {
+  background-color: #63605a; }
+
+#shopAlt {
+  width: 900px;
+  height: 563px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
+
+#shopAlt .shopLeft {
+  width: 450px;
+  height: 563px;
+  background: url("../images/bg01.jpg") no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden; }
+
+#shopAlt .shopLeft .smallDot {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  width: 90px;
+  height: 17px;
+  padding: 13px 0;
+  display: flex;
+  justify-content: space-between; }
+
+#shopAlt .shopLeft .smallDot li {
+  width: 8px;
+  height: 8px;
+  border: 1px solid #63605a;
+  border-radius: 50%;
+  cursor: pointer; }
+
+#shopAlt .shopLeft .smallDot li:hover {
+  background-color: #63605a; }
+
+#shopAlt .shopLeft .direction {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  font-size: 50px;
+  margin-top: -23px; }
+
+#shopAlt .shopLeft .direction .prevImg {
+  display: block;
+  width: 41px;
+  height: 46px;
+  float: left;
+  background: #666;
+  opacity: 0; }
+
+#shopAlt .shopLeft .direction .nextImg {
+  display: block;
+  width: 41px;
+  height: 46px;
+  float: right;
+  background: #666;
+  opacity: 0; }
+
+#shopAlt .shopright {
+  width: 450px;
+  height: 563px;
+  background: #fff;
+  float: right; }
+
+#shopAlt .shopright .shopright_main {
+  padding-left: 30px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 473px; }
+
+#shopAlt .shopright .shopright_main .radio_color {
+  width: 372px;
+  height: 112px; }
+
+#shopAlt .shopright .shopright_main .radio_color p {
+  border-top: 1px solid #ddd;
+  padding-top: 33px; }
+
+#shopAlt .shopright .shopright_main button {
+  width: 42px;
+  height: 30px;
+  border: 1px solid #333;
+  margin-right: 14px; }
+
+#shopAlt .shopright .shopright_main .radio_size {
+  width: 372px;
+  height: 70px;
+  border-bottom: 1px solid #ddd; }
+
+#shopAlt .shopright .shopright_main .check {
+  width: 371px;
+  height: 40px;
+  border: 1px solid #333;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 20px; }
+
+#shopAlt .shopright .shopright_bottom {
+  width: 450px;
+  height: 90px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px; }
+
+#shopAlt .shopright .shopright_bottom a {
+  display: block;
+  width: 410px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  font: 14px;
+  font-weight: 200;
+  margin: 19px 20px;
+  background: #00792a; }

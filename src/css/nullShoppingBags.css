@@ -1,0 +1,113 @@
+#main{
+	margin-bottom: 150px;
+}
+.shopping-bag-container{
+	margin-top: 50px;
+	
+}
+.bag-icon{
+	margin: 130px 0 0 650px;
+}
+.bag-icon p{
+	color: #63605A;
+}
+.btnList{
+	margin: 80px 0 0 425px;
+}
+.btnList p{
+	width: 600px;
+	margin-bottom: 20px;
+}
+.btnList p a{
+	display: block;
+	height: 50px;
+	width: 250px;
+	border: 1px solid #63605A;
+	color: #63605A;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	margin-left: 20px;
+	text-decoration: none;
+}
+.btnList p a:hover{
+	background-color: #63605A;
+	color: #FFFFFF;
+}
+
+/* .shoping-bg{
+	display: none;
+	margin-top: 50px;
+}
+body{
+	background: darkcyan;
+}
+#main{
+	margin-top: 55px;
+}
+.shoping-bg1{
+	display:flex;
+	margin: 0 auto;
+	width: 1200px;
+	margin-top: 130px;
+}
+.shoping_bg1_left{
+	width: 800px;
+	min-height: 500px;
+	background: white;
+	padding: 50px 90px;
+}
+.h2{
+	margin-bottom: 50px;
+}
+.shoping_bg1_right{
+	padding: 130px 80px;
+	width: 400px;
+	min-height: 500px;
+	background: #E3E3E3;
+}
+.shoping_bg1_right button{
+	font-size: 20px;
+	color: #fff;
+	width: 240px;
+	height: 50px;
+	background: darkgreen;
+	border: 0;
+	outline: none;
+}
+.Aimg img{
+	width: 150px;
+	height: 180px;
+	margin-right: 30px;
+	cursor: pointer;
+}
+.Aul li{
+	display: flex;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #999;
+}
+.Atxt{
+	width: 100%;
+}
+.Atxt p:nth-child(1) span:nth-child(2){
+	float: right;
+}
+.Atxt p:nth-child(2){
+	font-size: 16px;
+	margin: 5px 0;
+}
+.Atxt p:nth-child(4){
+	
+}
+.Atxt p:nth-child(5){
+	margin-top: 60px;
+	font-size: 16px;
+}
+.Atxt p:nth-child(5) span{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.Atxt p:nth-child(5) span:hover{
+	color: #666;
+}
+ */

@@ -1,0 +1,673 @@
+@charset "utf-8";
+
+#mostHeader {
+	height: 95px;
+	width: 100%;
+}
+/* #main{
+	min-height: 450px;
+} */
+/* 清除浮动*/
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	content: ' ';
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+
+/* 顶部样式*/
+.top {
+	background: #333;
+	height: 40px;
+	width: 100%;
+}
+
+.head_left {
+	float: left;
+	height: 100%;
+}
+
+.head_left a {
+	display: inline-block;
+	width: 50px;
+	height: 38px;
+	margin-left: 12px;
+	background: url(../images/logo_min.png) no-repeat;
+}
+
+.head_right {
+	float: right;
+	height: 100%;
+}
+
+.head_right p {
+	color: #fff;
+	font-size: 12px;
+	position: relative;
+	top: 16px;
+}
+
+.head_right p a {
+	color: #fff;
+	font-size: 12px;
+	margin-right: 12px;
+	text-decoration: none;
+}
+
+.head_right .look {
+	color: #DBDBDB;
+	margin-right: 24px;
+	text-decoration: underline;
+}
+
+.top>a {
+	color: #fff;
+	font-size: 12px;
+	line-height: 40px;
+	margin-left: 20px;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.iconfont {
+	font-size: 12px;
+}
+
+/* 导航 */
+.nav {
+	width: 100%;
+	height: 56px;
+	background-color: #fff;
+	border-bottom: 1px solid #dadada;
+	position: absolute;
+	z-index: 999;
+}
+
+.logo h1 {
+	float: left;
+	margin-top: 0;
+}
+
+.logo h1 a {
+	display: block;
+	width: 208px;
+	height: 55px;
+	background: url(../images/logo.jpg);
+	text-indent: -9999px;
+	margin-right: 26px;
+}
+
+.navList {
+	float: left;
+	line-height: 56px;
+}
+
+.navList li {
+	float: left;
+	margin: 0 16px;
+}
+
+.navList li a {
+	font-size: 14px;
+	color: #212121;
+	text-decoration: none;
+}
+
+.font {
+	font-weight: bolder;
+}
+
+.icons {
+	float: right;
+}
+
+.icons .ulRight {
+	float: left;
+}
+
+.iconsList {
+	position: relative;
+}
+
+.ulRight li {
+	float: left;
+	width: 44px;
+	line-height: 56px;
+	text-align: center;
+}
+
+.ulRight li a {
+	color: #212121;
+	cursor: pointer;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+/* 购物袋*/
+.shoppingBags {
+	min-height: 370px;
+	width: 470px;
+	position: absolute;
+	top: 96px;
+	right: 0px;
+	display: none;
+	border: 1px solid #d4d4d3;
+	border-top: none;
+	background: #FFFFFF;
+}
+
+.carShow {
+	display: block;
+}
+
+.shopCon {
+	padding: 0 15px;
+}
+
+.shoppingBags .bags {
+	color: #212121;
+	font-size: 16px;
+	height: 50px;
+	border-bottom: 1px solid #d4d4d3;
+	overflow: hidden;
+}
+
+.shoppingBags .bags span {
+	line-height: 70px;
+}
+
+.shoppingBags .count {
+	border-bottom: 1px solid #d4d4d3;
+	color: #212121;
+	height: 60px;
+	font-size: 16px;
+	line-height: 60px;
+}
+
+.shoppingBags .count strong {
+	font-weight: bolder;
+}
+
+.shoppingBags .count .lookToShopping {
+	background: #0C631A;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	width: 124px;
+	height: 42px;
+	line-height: 42px;
+	float: right;
+	border-style: none;
+	margin: 8px 0px 8px 0px;
+	text-decoration: none;
+}
+
+.shoppingBags .count .lookToShopping:hover {
+	background: #30551e;
+}
+
+.shopping .default {
+	color: #CCC;
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+	top: 115px;
+
+}
+
+.cartProduct {
+	border-bottom: 1px solid #d4d4d3;
+	padding-bottom: 16px;
+}
+
+.cartProduct .minCart {
+	float: left;
+	width: 22%;
+	margin: 20px 0px 0 38px;
+}
+
+.minCart a {
+	display: block;
+	text-decoration: none;
+	color: #666;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.minCart a .proTitle {
+	color: #333333;
+	font-size: 14px;
+}
+
+.lookfor {
+	float: right;
+	position: fixed;
+	top: 420px;
+	right: 16px;
+	margin-top: 12px;
+}
+
+.lookfor a {
+	color: #999;
+	text-decoration: none;
+}
+
+/* 底部通栏logo */
+#wrap {
+	width: 100%;
+}
+
+.logo_big {
+	height: 215px;
+	width: 100%;
+	background: rgb(39, 39, 39);
+}
+
+.logo_big a {
+	display: block;
+	height: 215px;
+	width: 100%;
+	/* position: relative; */
+}
+
+.logo_big img {
+/* 	position: absolute;
+	top: 35%;
+	left: 45%; */
+	margin: 70px 0 0 655px;
+}
+
+/* 底部导航 */
+#foot {
+	background: #212121;
+	padding-top: 50px;
+}
+
+.footer {
+	height: 326px;
+	width: 100%;
+	background: #212121;
+}
+
+/* 底部导航左边 */
+.footer_left {
+	float: left;
+	margin: 0 150px 0 70px;
+}
+
+.email a {
+	display: inline-block;
+	width: 232px;
+	height: 44px;
+	border: 1px solid #fff;
+	background: #212121;
+	line-height: 44px;
+	text-align: center;
+	color: #FFF;
+	font-size: 14px;
+}
+
+.email a:hover {
+	background: #fff;
+	color: #212121;
+}
+
+.email p {
+	color: #999;
+	text-align: left;
+	font-size: 14px;
+	margin: 20px 0 22px 0;
+}
+
+.guanzhu {
+	position: relative;
+}
+
+.guanzhu p {
+	color: #fff;
+	text-align: left;
+}
+
+.guanzhu span {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: relative;
+	border: 1px solid #fff;
+	margin: 6px 12px 0 0;
+	cursor: pointer;
+}
+
+.guanzhu span:hover {
+	background: #FFFFFF;
+}
+
+.guanzhu span .icon-weibo:hover {
+	color: #212121;
+}
+
+.guanzhu span .icon-weixin:hover {
+	color: #212121;
+}
+
+.guanzhu img {
+	display: none;
+	position: absolute;
+	top: -45px;
+	left: 102px;
+}
+
+.show {
+	display: inline-block;
+}
+
+.guanzhu .icon-weibo {
+	font-size: 20px;
+	color: #fff;
+	position: absolute;
+	top: 16%;
+	left: 25%;
+}
+
+.guanzhu .icon-weixin {
+	font-size: 22px;
+	color: #fff;
+	position: absolute;
+	top: 14%;
+	left: 22%;
+}
+
+.buy .buy_method {
+	color: #fff;
+	font-size: 12px;
+	margin: 32px 0 10px 0;
+}
+
+.buy .method {
+	margin-bottom: 4px;
+}
+
+.icon-zhifubao {
+	font-size: 18px;
+	color: #fff;
+	margin-right: 8px;
+}
+
+.icon-weixinzhifu {
+	font-size: 22px;
+	color: #fff;
+	margin-left: 50px;
+	margin-right: 8px;
+}
+
+.buy .method .zhifu {
+	color: #999;
+}
+
+.buy .card {
+	color: #999;
+	text-align: left;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+/* 底部导航右边 */
+.foot_list {
+	float: left;
+}
+
+.foot_list .ulList {
+	float: left;
+	width: 180px;
+}
+
+.foot_list h3 a {
+	color: #999;
+	text-decoration: none;
+}
+
+.foot_list h3 .icon-gongshang {
+	display: inline-block;
+}
+
+.foot_list h3 .icon-gongshang img {
+	height: 27px;
+	width: 27px;
+}
+
+.foot_list h3 {
+	margin-bottom: 36px;
+}
+
+.foot_list .ulList .forOur {
+	margin-bottom: 21px;
+}
+
+.foot_list .ulList .pingpai {
+	margin-top: 50px;
+}
+
+.foot_list h3 a:hover {
+	color: #ccc;
+}
+
+.ulList li a {
+	color: #ccc;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.ulList li a:hover {
+	color: #fff;
+}
+
+.position_right {
+	margin-left: 34px;
+}
+
+.footer {
+	display: flex;
+}
+
+/*nav右侧样式*/
+.language {
+	background: white;
+	position: absolute;
+	top: 96px;
+	right: 0;
+	width: 260px;
+	border: 1px solid #DADADA;
+	border-top: none;
+	z-index: 1;
+	display: none;
+}
+
+.language ul li {
+	cursor: pointer;
+	line-height: 50px;
+	height: 50px;
+	list-style: none;
+	padding: 0 20px;
+}
+
+.language ul li:hover {
+	background: #999;
+}
+
+.language ul li p span {
+	float: right;
+}
+
+.language ul li:nth-child(1) p {
+	border-bottom: 1px solid #DADADA;
+}
+
+.language ul li:nth-child(1) p span {
+	display: none;
+}
+
+.touxiang {
+	background: #fff;
+	display: none;
+	position: absolute;
+	top: 96px;
+	right: 0;
+	width: 260px;
+	border: 1px solid #DADADA;
+	border-top: none;
+	z-index: 5;
+}
+
+.touxiang ul li {
+	list-style: none;
+	padding: 0 20px;
+	border-bottom: 1px solid #DADADA;
+}
+
+.touxiang ul li:hover {
+	background: #DADADA;
+}
+
+.touxiang ul li p {
+	cursor: pointer;
+	line-height: 50px;
+	height: 50px;
+}
+
+.touxiang ul li:nth-child(4) {
+	border: none;
+}
+
+.smallShoppingCar {
+	display: none;
+	width: 500px;
+	border: 1px solid #DADADA;
+	position: absolute;
+	top: 96px;
+	right: 0;
+	border-top: none;
+	background: white;
+}
+
+.smallShoppingCar ul li {
+	list-style: none;
+	padding: 0 20px;
+	border-bottom: 1px solid #DADADA;
+}
+
+.smallShoppingCar ul li:nth-child(1) {
+	height: 50px;
+	line-height: 50px;
+}
+
+.smallShoppingCar ul li span:nth-child(1) {
+	font-size: 16px;
+	color: black;
+}
+
+.smallShoppingCar ul li span:nth-child(2) {
+	margin-left: 280px;
+	margin-right: 20px;
+	cursor: pointer;
+	position: relative;
+}
+
+.smallShoppingCar ul li span:nth-child(3) {
+	cursor: pointer;
+}
+
+.smallShoppingCar ul li p {
+	line-height: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.smallShoppingCar ul li:nth-child(2) a {
+	cursor: pointer;
+	position: absolute;
+	top: 60px;
+	right: 30px;
+	display: inline;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	background: darkgreen;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+.smallShoppingCar ul li:nth-child(2) span:hover {
+	background: darkolivegreen;
+}
+
+.smallShoppingCar ul li:nth-child(3) {
+	text-align: center;
+	min-height: 200px;
+	line-height: 200px;
+	color: #999;
+}
+
+.smallShoppingCar ul li:nth-last-child(1) {
+	border: none;
+	float: right;
+}
+
+.smallShoppingCar div {
+	overflow: hidden;
+	padding: 0 24px;
+}
+
+.smallShoppingCar dl {
+	width: 150px;
+	float: left;
+	padding: 10px 25px;
+}
+
+.smallShoppingCar dl dt {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.smallShoppingCar dl dt img {
+	width: 100px;
+	height: 100px;
+}
+
+.smallShoppingCar dl dd {
+	font-size: 12px;
+}
+
+.num {
+	margin-left: 5px;
+}
+
+.Aprev {
+	color: #999;
+}
+
+.Anext {
+	color: black;
+}
+
+.xiangshang {
+	width: 50px;
+	height: 50px;
+	background: #969896;
+	position: fixed;
+	right: 30px;
+	bottom: 20px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+	display: none;
+}

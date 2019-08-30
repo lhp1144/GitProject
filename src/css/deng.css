@@ -1,0 +1,98 @@
+
+#bj{
+	background:url(../images/bg.png) repeat;
+	height:900PX;
+	background-attachment: fixed;
+	padding-top:100px;
+	
+}
+.denglu{
+	display:block;
+}
+.box{
+	width:415px;
+	height:350px;
+	background: #FFFFFF;
+	text-align: center;
+	margin: 0 auto;
+
+	/* position: relative;
+	top:40%;
+	 */
+}
+.top_1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin:0 30px;
+	padding:20px 0;
+	border-bottom:1px solid #ccc;
+}
+.top_1 a{
+	font-size:16px;
+	display: inline-block;
+	text-decoration: none;
+}
+.bottom .p1{
+	width:450px;
+	
+	padding:20px 0;
+	
+}
+.p2>input{
+	display: block;
+	width:324px;
+	height:35px;
+	background: green;
+	margin-left: 40px;
+	text-decoration: none;
+	color: #FFF;
+	line-height:35px ;
+	font-size: 16px;
+	text-align: center;
+	border: 0;
+	cursor: pointer;
+}
+
+input{
+	width:324px;
+	height:35px;
+	
+}
+.box1{
+	width:415px;
+	height:350px;
+	background: #FFFFFF;
+	text-align: center;
+	margin: 0 auto;
+	/* position: relative;
+	top:40%; */
+	display:none;
+}
+.zhuce{
+	height:370px
+
+}
+.inp{
+	width:20px;
+	height:20px;
+}
+.line{
+	border-bottom: 1px solid #ccc;
+	margin:16px 30px;
+	
+}
+.wrap{
+	line-height:15px;
+	text-align: center;
+}
+.wrap>input{
+	
+}
+.color1{
+	color:#5E5E5E;
+	
+	
+	 
+	
+}
